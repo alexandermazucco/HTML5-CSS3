@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            
+            Shorthand - background
+            color > image > position > repeat > [size] > attatchment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,7 +37,8 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere porro magnam ad quisquam repudiandae placeat odio ab. Voluptatem voluptatum placeat exercitationem totam ut praesentium! Deleniti sit molestias ut mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, delectus dolorem cupiditate alias temporibus facere ipsam veritatis nam? Aperiam ratione dolor dicta quis qui iste quaerat eos voluptatibus provident sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consequatur beatae natus adipisci fuga eius! Neque deleniti exercitationem perferendis mollitia, rem inventore suscipit, aut a reiciendis incidunt eveniet possimus sequi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos facere porro magnam ad quisquam repudiandae placeat odio ab. Voluptatem voluptatum placeat exercitationem totam ut praesentium! Deleniti sit molestias ut mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, delectus dolorem cupiditate alias temporibus facere ipsam veritatis nam? Aperiam ratione dolor dicta quis qui iste quaerat eos voluptatibus provident sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consequatur beatae natus adipisci fuga eius! Neque deleniti exercitationem perferendis mollitia, rem inventore suscipit, aut a reiciendis incidunt eveniet possimus sequi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptate quae, nobis explicabo aut nesciunt est corrupti omnis magnam blanditiis provident quo soluta eligendi minus? Vel omnis sunt cumque non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vero eius, quis ipsa esse omnis? Tenetur commodi, culpa illum placeat sapiente praesentium, minus omnis dolorum esse quaerat odio, mollitia odit!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at repellendus aspernatur commodi libero ut quos praesentium cum. Rem laudantium repudiandae quisquam quaerat dolorem numquam voluptate sed iure magni odit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos iste ipsam amet, accusamus quisquam nesciunt doloribus pariatur voluptatem eum maxime et quidem iusto nostrum? Ex porro iusto dignissimos autem laudantium!</p>
     </main>
 </body>
 </html>
